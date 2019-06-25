@@ -1,0 +1,21 @@
+{
+  "name": "url-meta-scrape",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "./node_modules/.bin/jest test --runInBand"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0-rc.3",
+    "debug": "2.6.9",
+    "express": "4.16.0",
+    "http-errors": "1.6.2",
+    "request": "2.88.0",
+    "request-promise": "4.2.4"
+  },
+  "devDependencies": {
+    "jest": "24.8.0",
+    "supertest": "4.0.2"
+  }
+}
